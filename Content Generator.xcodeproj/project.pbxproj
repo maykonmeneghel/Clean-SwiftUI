@@ -280,6 +280,22 @@
 			path = Remote;
 			sourceTree = "<group>";
 		};
+		F021B7012A37C98E00993847 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				F021B6FE2A37C8DF00993847 /* Remote */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		F021B7042A37C9D900993847 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F021B6BB2A37C54C00993847 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		F021B7092A37CB0900993847 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
