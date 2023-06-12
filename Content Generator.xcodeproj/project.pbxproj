@@ -15,6 +15,7 @@
 		F021B6D62A37C55300993847 /* Content_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6D52A37C55300993847 /* Content_GeneratorUITests.swift */; };
 		F021B6D82A37C55300993847 /* Content_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6D72A37C55300993847 /* Content_GeneratorUITestsLaunchTests.swift */; };
 		F021B70B2A37CB1500993847 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B70A2A37CB1500993847 /* View+Extensions.swift */; };
+		F021B7152A37CD3E00993847 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B7142A37CD3E00993847 /* Dependency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F021B6D52A37C55300993847 /* Content_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_GeneratorUITests.swift; sourceTree = "<group>"; };
 		F021B6D72A37C55300993847 /* Content_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F021B70A2A37CB1500993847 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		F021B7142A37CD3E00993847 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 				F021B6BC2A37C54C00993847 /* ContentView.swift in Sources */,
 				F021B70B2A37CB1500993847 /* View+Extensions.swift in Sources */,
 				F021B6BA2A37C54C00993847 /* Content_GeneratorApp.swift in Sources */,
+				F021B7152A37CD3E00993847 /* Dependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
