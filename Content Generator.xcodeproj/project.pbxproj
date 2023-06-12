@@ -138,6 +138,14 @@
 			path = "Content GeneratorUITests";
 			sourceTree = "<group>";
 		};
+		F021B6EA2A37C5E300993847 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				F021B6F12A37C72400993847 /* FetchContentsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 		F021B6EB2A37C5F100993847 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +304,7 @@
 				F021B6F02A37C6D600993847 /* ContentRepository.swift in Sources */,
 				F021B6EE2A37C63400993847 /* ContentEntity.swift in Sources */,
 				F021B70B2A37CB1500993847 /* View+Extensions.swift in Sources */,
+				F021B6F22A37C72400993847 /* FetchContentsUseCase.swift in Sources */,
 				F021B6BA2A37C54C00993847 /* Content_GeneratorApp.swift in Sources */,
 				F021B7152A37CD3E00993847 /* Dependency.swift in Sources */,
 			);
