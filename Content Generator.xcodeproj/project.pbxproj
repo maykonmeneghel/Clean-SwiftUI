@@ -19,6 +19,7 @@
 		F021B6F22A37C72400993847 /* FetchContentsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6F12A37C72400993847 /* FetchContentsUseCase.swift */; };
 		F021B6F72A37C7B600993847 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6F62A37C7B600993847 /* ContentModel.swift */; };
 		F021B6F92A37C7F300993847 /* ContentMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6F82A37C7F300993847 /* ContentMapper.swift */; };
+		F021B6FB2A37C88C00993847 /* ContentRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6FA2A37C88C00993847 /* ContentRepositoryImpl.swift */; };
 		F021B7002A37C8EF00993847 /* ContentDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6FF2A37C8EF00993847 /* ContentDatasource.swift */; };
 		F021B70B2A37CB1500993847 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B70A2A37CB1500993847 /* View+Extensions.swift */; };
 		F021B7152A37CD3E00993847 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B7142A37CD3E00993847 /* Dependency.swift */; };
@@ -58,6 +59,7 @@
 		F021B6F12A37C72400993847 /* FetchContentsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContentsUseCase.swift; sourceTree = "<group>"; };
 		F021B6F62A37C7B600993847 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		F021B6F82A37C7F300993847 /* ContentMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMapper.swift; sourceTree = "<group>"; };
+		F021B6FA2A37C88C00993847 /* ContentRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryImpl.swift; sourceTree = "<group>"; };
 		F021B6FF2A37C8EF00993847 /* ContentDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDatasource.swift; sourceTree = "<group>"; };
 		F021B70A2A37CB1500993847 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		F021B7142A37CD3E00993847 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
@@ -166,6 +168,14 @@
 			isa = PBXGroup;
 			children = (
 				F021B6EF2A37C6D600993847 /* ContentRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F021B6F32A37C79800993847 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F021B6FA2A37C88C00993847 /* ContentRepositoryImpl.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -335,6 +345,7 @@
 				F021B6BC2A37C54C00993847 /* ContentView.swift in Sources */,
 				F021B6F02A37C6D600993847 /* ContentRepository.swift in Sources */,
 				F021B6EE2A37C63400993847 /* ContentEntity.swift in Sources */,
+				F021B6FB2A37C88C00993847 /* ContentRepositoryImpl.swift in Sources */,
 				F021B7002A37C8EF00993847 /* ContentDatasource.swift in Sources */,
 				F021B6F92A37C7F300993847 /* ContentMapper.swift in Sources */,
 				F021B70B2A37CB1500993847 /* View+Extensions.swift in Sources */,
