@@ -21,6 +21,7 @@
 		F021B6F92A37C7F300993847 /* ContentMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6F82A37C7F300993847 /* ContentMapper.swift */; };
 		F021B6FB2A37C88C00993847 /* ContentRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6FA2A37C88C00993847 /* ContentRepositoryImpl.swift */; };
 		F021B7002A37C8EF00993847 /* ContentDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B6FF2A37C8EF00993847 /* ContentDatasource.swift */; };
+		F021B7032A37C9A400993847 /* ContentRemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B7022A37C9A400993847 /* ContentRemoteDatasource.swift */; };
 		F021B70B2A37CB1500993847 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B70A2A37CB1500993847 /* View+Extensions.swift */; };
 		F021B7152A37CD3E00993847 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021B7142A37CD3E00993847 /* Dependency.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		F021B6F82A37C7F300993847 /* ContentMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMapper.swift; sourceTree = "<group>"; };
 		F021B6FA2A37C88C00993847 /* ContentRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryImpl.swift; sourceTree = "<group>"; };
 		F021B6FF2A37C8EF00993847 /* ContentDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDatasource.swift; sourceTree = "<group>"; };
+		F021B7022A37C9A400993847 /* ContentRemoteDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRemoteDatasource.swift; sourceTree = "<group>"; };
 		F021B70A2A37CB1500993847 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		F021B7142A37CD3E00993847 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +206,14 @@
 			path = Datasource;
 			sourceTree = "<group>";
 		};
+		F021B6FE2A37C8DF00993847 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				F021B7022A37C9A400993847 /* ContentRemoteDatasource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
 		F021B7092A37CB0900993847 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +354,7 @@
 			files = (
 				F021B6BC2A37C54C00993847 /* ContentView.swift in Sources */,
 				F021B6F02A37C6D600993847 /* ContentRepository.swift in Sources */,
+				F021B7032A37C9A400993847 /* ContentRemoteDatasource.swift in Sources */,
 				F021B6EE2A37C63400993847 /* ContentEntity.swift in Sources */,
 				F021B6FB2A37C88C00993847 /* ContentRepositoryImpl.swift in Sources */,
 				F021B7002A37C8EF00993847 /* ContentDatasource.swift in Sources */,
