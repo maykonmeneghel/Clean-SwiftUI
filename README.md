@@ -34,5 +34,6 @@ The presentation layer is responsible for displaying data to the user and handli
 - **ViewModel**: A controller that manages the state and presentation logic of the data.
 - **UI**: A folder that contains SwiftUI views.
 
+### Reference:
 
 https://medium.com/@maykonmeneghel_55360/clean-architecture-swiftui-9bb39619af70
