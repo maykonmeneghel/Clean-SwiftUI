@@ -15,8 +15,9 @@ struct ContentView: View {
     var body: some View {
         HStack {
             List {
-                ForEach(contents, id: \.url) { content in
+                ForEach(viewModel.contents, id: \.url) { content in
                     Text(content.theme)
+                        .foregroundStyle(Color.blue)
                 }
             }
         }
