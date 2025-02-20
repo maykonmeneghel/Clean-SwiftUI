@@ -1,8 +1,9 @@
-struct ContentRepositoryImpl: ContentRepository {
-    var datasource: ContentDatasource
+actor ContentRepositoryImpl: ContentRepository {
+    private let datasource: ContentDatasource
     
-    func fetchContents() -> [ContentEntity] {
-        let contents: [ContentModel] = datasource.fetchContents()
+    init(datasource: ContentDatasource) {
+        self.datasource = datasource
+    }
     
     func fetchContents() async throws -> [ContentEntity] {
         let contents: [ContentModel] = try await datasource.fetchContents()
