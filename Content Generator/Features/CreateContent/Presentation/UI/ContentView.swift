@@ -3,9 +3,13 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: Properties
-    @Dependency(\.features.contentFeature.contentViewModel) var viewModel
     
     @StateObject private var viewModel: ContentViewModel
+    
+    init() {
+        let viewModel = DependencyContainer().features.contentFeature.contentViewModel
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
     
     // MARK: - Body
     var body: some View {
