@@ -5,7 +5,7 @@ struct ContentView: View {
     // MARK: Properties
     @Dependency(\.features.contentFeature.contentViewModel) var viewModel
     
-    @State var contents: [ContentEntity] = []
+    @StateObject private var viewModel: ContentViewModel
     
     // MARK: - Body
     var body: some View {

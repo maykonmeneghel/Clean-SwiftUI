@@ -1,6 +1,9 @@
 struct ContentViewModel {
 
 @MainActor
+class ContentViewModel: ObservableObject {
+    
+    @Published var contents: [ContentEntity] = []
     
     private var _fetchContentsUseCase: FetchContentsUseCase
     
