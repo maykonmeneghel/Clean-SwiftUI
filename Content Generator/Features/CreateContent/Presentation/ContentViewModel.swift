@@ -1,4 +1,6 @@
 struct ContentViewModel {
+
+@MainActor
     
     private var _fetchContentsUseCase: FetchContentsUseCase
     
