@@ -1,12 +1,12 @@
 protocol FetchContentsUseCase {
-    func call() -> [ContentEntity]
+    func call() async throws -> [ContentEntity]
 }
 
 struct FetchContentsUseCaseImpl: FetchContentsUseCase {
     
     var repository: ContentRepository
     
-    func call() -> [ContentEntity] {
-        repository.fetchContents()
+    func call() async throws -> [ContentEntity] {
+        try await repository.fetchContents()
     }
 }

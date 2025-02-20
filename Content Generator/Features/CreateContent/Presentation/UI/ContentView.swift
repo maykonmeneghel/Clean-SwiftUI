@@ -16,8 +16,13 @@ struct ContentView: View {
                 }
             }
         }
-        .task {
-            contents = viewModel.fetchContents()
+        .task(priority: .background) {
+            do {
+                try await viewModel.fetchContents()
+            } catch {
+                // Get the error
+                print(error)
+            }
         }
     }
 }
