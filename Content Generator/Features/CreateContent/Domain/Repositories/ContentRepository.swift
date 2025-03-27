@@ -1,3 +1,3 @@
 protocol ContentRepository {
-    func fetchContents() -> [ContentEntity]
+    func fetchContents() async throws -> [ContentEntity]
 }

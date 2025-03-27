@@ -16,6 +16,7 @@ class ContentInjector {
     }()
     
     // ViewModel
+    @MainActor
     lazy var contentViewModel: ContentViewModel = {
         ContentViewModel(fetchContentsUseCase)
     }()

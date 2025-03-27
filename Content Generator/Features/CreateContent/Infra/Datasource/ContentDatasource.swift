@@ -1,3 +1,3 @@
 protocol ContentDatasource {
-    func fetchContents() -> [ContentModel]
+    func fetchContents() async throws -> [ContentModel]
 }

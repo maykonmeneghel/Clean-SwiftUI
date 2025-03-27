@@ -3,21 +3,31 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: Properties
-    @Dependency(\.features.contentFeature.contentViewModel) var viewModel
     
-    @State var contents: [ContentEntity] = []
+    @StateObject private var viewModel: ContentViewModel
+    
+    init() {
+        let viewModel = DependencyContainer().features.contentFeature.contentViewModel
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
     
     // MARK: - Body
     var body: some View {
         HStack {
             List {
-                ForEach(contents, id: \.url) { content in
+                ForEach(viewModel.contents, id: \.url) { content in
                     Text(content.theme)
+                        .foregroundStyle(Color.blue)
                 }
             }
         }
-        .task {
-            contents = viewModel.fetchContents()
+        .task(priority: .background) {
+            do {
+                try await viewModel.fetchContents()
+            } catch {
+                // Get the error
+                print(error)
+            }
         }
     }
 }
